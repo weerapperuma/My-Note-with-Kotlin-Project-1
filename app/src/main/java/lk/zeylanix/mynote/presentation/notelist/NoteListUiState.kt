@@ -1,4 +1,9 @@
 package lk.zeylanix.mynote.presentation.notelist
 
-class NoteListUiState {
-}
+import lk.zeylanix.mynote.domain.model.Note
+
+data class NoteListUiState (
+    val notes: List<Note> = emptyList(),
+    val isLoading: Boolean = false,
+    val errorMessage: String? = null
+)
