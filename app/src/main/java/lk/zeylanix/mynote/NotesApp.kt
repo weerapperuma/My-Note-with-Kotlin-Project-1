@@ -1,4 +1,7 @@
 package lk.zeylanix.mynote
 
-class NotesApp {
-}
+import android.app.Application
+import dagger.hilt.android.HiltAndroidApp
+
+@HiltAndroidApp
+class NotesApp : Application()

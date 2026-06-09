@@ -1,6 +1,6 @@
 [versions]
-agp = "9.2.1"
-kotlin = "2.2.10"
+agp = "8.9.1"
+kotlin = "2.0.21"
 composeBom = "2026.02.01"
 
 coreKtx = "1.18.0"
@@ -9,7 +9,7 @@ activityCompose = "1.13.0"
 
 navigationCompose = "2.9.0"
 room = "2.7.1"
-hilt = "2.56.2"
+hilt = "2.52"
 hiltNavigationCompose = "1.2.0"
 coroutines = "1.10.2"
 
@@ -31,7 +31,7 @@ androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = 
 androidx-room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
 
 hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt" }
-hilt-compiler = { group = "com.google.dagger", name = "hilt-compiler", version.ref = "hilt" }
+hilt-android-compiler = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "hilt" }
 androidx-hilt-navigation-compose = { group = "androidx.hilt", name = "hilt-navigation-compose", version.ref = "hiltNavigationCompose" }
 
 kotlinx-coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutines" }
@@ -53,4 +53,5 @@ androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-co
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
 hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
-ksp = { id = "com.google.devtools.ksp", version = "2.2.10-2.0.2" }
+ksp = { id = "com.google.devtools.ksp", version = "2.0.21-1.0.25" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
